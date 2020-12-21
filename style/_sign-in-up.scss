@@ -25,6 +25,7 @@ padding: 107px 0 0;
   }
   .two-side{
     display: block;
+    height: -webkit-fill-avaliable;
     .sign-up-footer{
       padding: 0 50px;
     }
@@ -59,6 +60,8 @@ padding: 107px 0 0;
     }
     .btn{
       margin-top: 10px;
+      display: flex;
+      justify-content: center;
       img{
         height: 80px;
         width: 80px;
@@ -69,19 +72,16 @@ padding: 107px 0 0;
   .align{
     display: block;
     width: 100%;
-    padding: 0 40px;
-    margin-bottom: 50px;
-    @media screen and (max-width: 362px){
-margin-bottom: 20px;
+    padding: 130px 40px 0;
+    height: -webkit-fill-avaliable;
+    @media screen and (max-height: 570px){
+padding: 0 40px;
     }
-    @media screen and (max-width: 376px) {
-      margin-bottom: 40px;
+    @media screen and (max-height: 670px) and (min-height: 570px) {
+      padding: 75px 40px 0;
     }
-    @media screen and (max-width: 542px){
-margin-bottom: 24px;
-    }
-    @media screen and (max-width: 1000px){
-      margin-bottom: 20px;
+    @media screen and (max-height: 1370px) and (min-height: 1130px) {
+      padding: 300px 40px 0;
     }
     h4{
       font-size: 35px;
@@ -91,7 +91,6 @@ margin-bottom: 24px;
     }
     form *{
       display: block;
-      width: 100%;
       padding: 5px;
     }
     form {
@@ -194,6 +193,7 @@ margin-bottom: 24px;
         background-color: #FF8701;
         color: white;
         font-size: 15px;
+        width: 100%;
       }
 
       .end {
@@ -212,7 +212,7 @@ margin-bottom: 24px;
         display: flex;
         align-items: center;
         justify-content: center;
-        padding: 0 40px 0 0;
+        width: 100%;
         a {
           text-decoration: none;
           white-space: nowrap;
@@ -221,6 +221,10 @@ margin-bottom: 24px;
           display: flex;
           align-items: center;
           justify-content: center;
+          p{
+            margin: 0;
+            padding: 0;
+          }
         }
       }
     }

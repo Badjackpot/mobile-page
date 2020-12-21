@@ -2,7 +2,7 @@ $font-family: Roboto Thin, Sans serif;
 $button-color:#FF8701;
 $p-color: #9FA5BB;
 $regular-p: 14px;
-$mute-text: #9f9f9f;
+$mute-text: #777676;
 
 
 body, html{
@@ -11,4 +11,5 @@ body, html{
 }
 *{
   box-sizing: border-box;
+  outline: none;
 }
