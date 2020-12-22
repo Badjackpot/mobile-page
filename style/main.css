@@ -261,6 +261,7 @@ body, html {
 * {
   box-sizing: border-box;
   outline: none;
+  font-family: "Roboto Thin", sans-serif;
 }
 
 .main-content {
@@ -750,9 +751,14 @@ body, html {
   left: 0;
   position: fixed;
   background-color: white;
-  width: 50%;
+  width: 20%;
   height: 100%;
   overflow: hidden;
+}
+@media screen and (max-width: 415px) {
+  .left-nav {
+    width: 50%;
+  }
 }
 .left-nav .left-nav-pad {
   padding: 20px 8px 0 44px;
@@ -766,6 +772,7 @@ body, html {
   list-style: none;
   padding: 7px 0;
   cursor: pointer;
+  font-size: 15px;
 }
 .left-nav .left-nav-pad ul li a {
   text-decoration: none;
@@ -773,6 +780,9 @@ body, html {
 }
 .left-nav .left-nav-pad .avatar {
   padding-top: 56%;
+}
+.left-nav .left-nav-pad .avatar h2 {
+  font-size: 16px;
 }
 .left-nav .left-nav-pad .avatar img {
   height: 100px;
@@ -784,17 +794,27 @@ body, html {
   z-index: 3;
   position: fixed;
   left: 11%;
-  top: 25px;
+  top: 5px;
   color: #777676 !important;
 }
 .color:hover {
-  left: 58%;
+  left: 23%;
+}
+@media screen and (max-width: 415px) {
+  .color:hover {
+    left: 53%;
+  }
 }
 .color:hover .left-nav {
   display: block;
 }
 .color:hover + .main-wrap {
-  margin-left: 50%;
+  margin-left: 20%;
+}
+@media screen and (max-width: 415px) {
+  .color:hover + .main-wrap {
+    margin-left: 50%;
+  }
 }
 
 .main-wrap {
@@ -849,6 +869,8 @@ body, html {
   width: 125px;
   border-bottom-left-radius: 15px;
   border-top-left-radius: 15px;
+  object-fit: cover;
+  object-position: right;
 }
 @media screen and (max-width: 415px) {
   .notif-main .main-padding .anim-containers .anim-container .cont-left-side img {

@@ -43,6 +43,8 @@ display: block;
             width: 125px;
             border-bottom-left-radius: 15px;
             border-top-left-radius: 15px;
+            object-fit: cover;
+            object-position: right;
             @media screen and (max-width: 415px) {
               width: 90px;
             }
