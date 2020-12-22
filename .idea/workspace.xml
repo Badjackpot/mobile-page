@@ -35,10 +35,6 @@
       <change afterPath="$PROJECT_DIR$/../first sass/style/main.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../first sass/style/main.css.map" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../first sass/style/main.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profile.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style/_prof-wal-not.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style/img/88442093_3341213925905423_4084333724617932800_o.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wallet.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../own project/index.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../own project/style/style.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../study/School/ლექცია5/.idea/ლექცია5.iml" afterDir="false" />
@@ -47,10 +43,10 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home1.html" beforeDir="false" afterPath="$PROJECT_DIR$/home1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home2.html" beforeDir="false" afterPath="$PROJECT_DIR$/home2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/_home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification.html" beforeDir="false" afterPath="$PROJECT_DIR$/notification.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/_prof-wal-not.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/_prof-wal-not.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style/main.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/main.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +99,7 @@
       <workItem from="1608244585549" duration="5976000" />
       <workItem from="1608250661651" duration="575000" />
       <workItem from="1608288250306" duration="12879000" />
-      <workItem from="1608473039359" duration="48137000" />
+      <workItem from="1608473039359" duration="53233000" />
     </task>
     <servers />
   </component>
