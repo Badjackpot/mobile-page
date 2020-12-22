@@ -1,5 +1,6 @@
 .main{
   background-color: #F7FBFE;
+  display: flex;
   .bot-nav{
     .nav-padding{
       background-color: white;
@@ -192,7 +193,10 @@ height: 3px;
     margin-bottom: 50px;
   }
   .search{
-    margin: 20px 0;
+    margin: 6px 15px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 10px;
   }
   nav{
     position: fixed;
@@ -202,10 +206,6 @@ height: 3px;
     top: 0;
     z-index: 1;
     .search{
-      margin: 5px 95%;
-      @media screen and (max-width: 630px) {
-        margin: 5px 90%
-      }
       i{
         color: $button-color;
       }
@@ -265,4 +265,58 @@ left: -28%;
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.left-nav{
+  display: none;
+  top: 0;
+  left: 0;
+  position: fixed;
+  background-color: white;
+width: 50%;
+  height: 100%;
+  overflow: hidden;
+  .left-nav-pad{
+    padding: 20px 8px 0 44px;
+height: 100%;
+    ul{
+      padding: 0;
+      display: block!important;
+      li{
+        list-style: none;
+        padding: 7px 0;
+        cursor: pointer;
+        a{
+          text-decoration: none;
+          color: $mute-text;
+        }
+      }
+    }
+    .avatar{
+      padding-top: 56%;
+      img{
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+      }
+    }
+  }
+}
+.color{
+  z-index: 3;
+  position: fixed;
+  left: 11%;
+  top: 25px;
+  color: $mute-text!important;
+  &:hover{
+    left: 58%;
+  }
+  &:hover .left-nav{
+display: block;
+  }
+  &:hover + .main-wrap{
+    margin-left: 50%;
+  }
+}
+.main-wrap{
+  width: 100%;
 }
